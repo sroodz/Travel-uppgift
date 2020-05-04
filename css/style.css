@@ -1,0 +1,94 @@
+.custom-navbar{
+background-color: black !important;
+}
+.navbar-brand{
+color: white !important;
+font-weight: bold;
+font-size: 30px;
+}
+
+a{
+color: white;
+}
+
+a:hover {
+color:white;
+}
+.welcome-section{
+background-color: #F0F0F0;
+}
+.rubrik {
+text-align: center;
+}
+.under-rubrik {
+text-align: center;
+}
+
+.text-block {
+position: absolute;
+bottom: 20px;
+right: 20px;
+background-color: black;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+.custom-button{
+background-color: white !important;
+color: black;
+}
+.custom-button:hover{
+
+color: green;
+}
+.page-footer{
+background-color: black;
+}
+h5 {
+color: white;
+}
+.footer-text {
+color: white;
+}
+.footer-copyright {
+color: white;
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #28a745;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.text{
+position:absolute;
+top:15px;
+left:25px;
+color: white;
+font-weight: bold;
+font-size: 25px;
+}
+.text-img {
+text-align: right;
+}
+
+.loggin-button {
+	margin: 20px;
+}
+
+.text-small-img{
+	position: absolute;
+	top:50px;
+left:25px;
+color: white;
+font-weight: bold;
+font-size: 25px;
+
+}
+
