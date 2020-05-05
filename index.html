@@ -10,7 +10,14 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 		
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-	
+		<script>
+		$(document).ready(function(){
+		$("#flip").click(function(){
+		$("#panel").slideDown("slow");
+		});
+		});
+		</script>
+		
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg custom-navbar">
@@ -130,6 +137,39 @@
 			<div>
 				<hr>
 			</div>
+			<div id="flip">Klicka för att se ytterligare erbujudanden</div>
+			<div class="container-fluid">
+				<div id="panel" >
+					<div class="row">
+						<div class="col-md-4 pt-5">
+							<div class="text-small-img">
+								NEW YORK
+							</div>
+							<img src="images/images6.jpg" alt="" class="img-fluid-panel"
+							/>
+							<a class="erbjudande" href="#">Klicka här för att hitta erbjudandet</a>
+						</div>
+						<div class="col-md-4 pt-5">
+							<div class="text-small-img">
+								AMSTERDAM
+							</div>
+							<img src="images/images7.jpg" alt="" class="img-fluid-panel" >
+							<a class="erbjudande" href="#">Klicka här för att hitta erbjudandet</a>
+						</div>
+						<div class="col-md-4 pt-5">
+							<div class="text-small-img">
+								BARCELONA
+							</div>
+							<img src="images/images8.jpg" alt="" class="img-fluid-panel">
+							
+							<a class="erbjudande" href="#">Klicka här för att hitta erbjudandet</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<hr>
+			</div>
 			<footer class="page-footer font-small blue pt-4">
 				<div class="container-fluid text-center text-md-left">
 					<div class="row">
@@ -179,7 +219,7 @@
 				<div class="footer-copyright text-center py-3">© 2020 Copyright:
 					<a href="#">Srood T.A</a>
 				</div>
-				
-			</footer>
-		</body>
-	</html>
+			</div>
+		</footer>
+	</body>
+</html>

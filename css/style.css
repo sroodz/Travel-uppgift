@@ -92,3 +92,24 @@ font-size: 25px;
 
 }
 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #F0F0F0;
+  color: red;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+.img-fluid-panel {
+    width: 300px;
+    height: 250px;
+}
+
+.erbjudande {
+    color: black;
+}
